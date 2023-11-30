@@ -1,0 +1,22 @@
+.todoWidget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.error,
+.loading {
+  display: grid;
+  row-gap: 20px;
+  place-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 30px;
+  @media (max-width: 640px) {
+    font-size: 20px;
+  }
+}
