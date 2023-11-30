@@ -1,0 +1,9 @@
+.todoList {
+  display: grid;
+  width: 50%;
+  gap: 10px;
+  
+  @media (max-width: 640px) {
+    width: 80%;
+  }
+}
